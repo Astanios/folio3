@@ -5,7 +5,6 @@ import {
   SpotLight,
 } from "@react-three/drei";
 import { Overlay } from "./Overlay";
-import { City } from "./City";
 import { Postpro } from "./Postpro";
 import { CroppedCity } from "./CroppedCity";
 
