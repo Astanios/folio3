@@ -12,13 +12,13 @@ export const Experience = () => {
   return (
     <>
       <ambientLight intensity={1} />
-      <OrbitControls enableZoom={false} />
+      {/* <OrbitControls enableZoom={false} /> */}
       <ScrollControls pages={3} damping={0.25}>
         <Overlay />
         {/* <Office /> */}
         <CroppedCity />
       </ScrollControls>
-      <Stars radius={500} depth={5} count={10000} />
+      <Stars radius={1} depth={600} count={1000000} />
       <spotLight
         intensity={5}
         position={[0, 0, 2000]}
